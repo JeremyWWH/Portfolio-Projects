@@ -132,3 +132,6 @@ Join PortfolioProject.dbo.CovidVaccinations vac
 	and dea.date = vac.date
 where dea.continent is not null
 --order by 2,3
+
+Select *
+From PercentPopulationVaccinated
